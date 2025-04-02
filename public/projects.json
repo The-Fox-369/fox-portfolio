@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Ping Pong",
+    "description": "A ping pong game built with HTML, and Vanilla JavaScript.",
+    "image": "assets/pong.png",
+    "live": "https://web-pingpong.netlify.app",
+    "repo": "https://github.com/the-fox-369/pong"
+  },
+  {
+    "title": "Projectile Game",
+    "description": "A projectile game built with HTML, and Vanilla JavaScript.",
+    "image": "./assets/projectile-game.png",
+    "live": "https://projectile-gameweb.netlify.app",
+    "repo": "https://github.com/the-fox-369/projectile-game"
+  }
+]

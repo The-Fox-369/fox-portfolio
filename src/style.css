@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+:root {
+  @apply font-mono leading-2 dark:text-white dark:bg-[#1b1b1b];
+}
