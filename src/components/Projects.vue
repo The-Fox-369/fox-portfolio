@@ -1,5 +1,8 @@
 <template>
-  <section id="projects" class="py-20 flex flex-col items-center">
+  <section
+    id="projects"
+    class="py-20 flex flex-col items-center dark:bg-[#1b1b1b] dark:text-white"
+  >
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
       <div class="text-center mb-10">
         <h2 class="text-4xl font-bold">Projects</h2>
@@ -46,8 +49,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import projects from "../../public/projects.json";
+import projects from "../projects.json";
 </script>
 
 <style scoped></style>

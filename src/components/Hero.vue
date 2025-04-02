@@ -1,6 +1,6 @@
 <template>
   <section
-    class="relative w-full h-screen flex items-center justify-center"
+    class="relative w-full h-screen flex items-center justify-center dark:bg-[#1b1b1b] dark:text-white"
     id="hero"
   >
     <div class="text-center space-y-6">

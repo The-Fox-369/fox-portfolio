@@ -11,7 +11,7 @@
       <div class="flex flex-col md:flex-row items-center gap-10">
         <!-- Profile Image -->
         <img
-          src="../../public/assets/fox.svg"
+          src="../assets/fox.svg"
           alt="Your Profile"
           class="w-48 h-48 rounded-full object-cover shadow-lg"
         />
