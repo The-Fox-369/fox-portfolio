@@ -4,7 +4,7 @@
   >
     <div class="flex justify-between items-center p-4">
       <img
-        src="../assets/fox.svg"
+        src="../assets/The Fox.svg"
         alt="Fox Logo"
         class="rounded-full w-12 h-12"
       />
