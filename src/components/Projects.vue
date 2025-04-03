@@ -12,7 +12,7 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
         <!-- Project Card -->
         <div
           v-for="(project, index) in projects"
