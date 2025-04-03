@@ -6,7 +6,7 @@
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
       <div class="text-center mb-10">
         <h2 class="text-4xl font-bold">Projects</h2>
-        <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
+        <p class="mt-4 leading-3 text-gray-400 max-w-2xl mx-auto">
           Here are some of my favorite projects that showcase my skills in web
           development.
         </p>
@@ -22,10 +22,12 @@
           <img
             :src="project.image"
             :alt="project.title"
-            class="w-full h-48 object-cover rounded-lg"
+            class="w-full leading-3 h-48 object-cover rounded-lg"
           />
           <h3 class="text-xl font-semibold mt-4">{{ project.title }}</h3>
-          <p class="text-gray-400 text-md">{{ project.description }}</p>
+          <p class="text-gray-400 text-md leading-2">
+            {{ project.description }}
+          </p>
           <div class="mt-4 flex space-x-4">
             <a
               :href="project.live"

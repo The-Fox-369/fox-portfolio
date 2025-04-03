@@ -8,7 +8,7 @@
       <a
         href="https://github.com/the-fox-369"
         target="_blank"
-        class="hover:text-gray-300 transition"
+        class="hover:text-gray-300 duration-300 transition"
         >GitHub</a
       >
       <!-- <a
@@ -20,7 +20,7 @@
       <a
         href="mailto:nubaidrashid369@gmail.com"
         target="_blank"
-        class="hover:text-gray-300 transition"
+        class="hover:text-gray-300 duration-300 transition"
         >Email</a
       >
     </div>

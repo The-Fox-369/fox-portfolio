@@ -4,13 +4,13 @@
   >
     <div class="flex justify-between items-center p-4">
       <img
-        src="../assets/fox.svg"
+        src="../../public/assets/fox.svg"
         alt="Fox Logo"
         class="rounded-full w-12 h-12"
       />
 
       <button @click="toggleMenu" class="md:hidden">
-        <img src="../assets/menu.svg" alt="Menu" class="w-6 h-6" />
+        <img src="../../public/assets/menu.svg" alt="Menu" class="w-6 h-6" />
       </button>
 
       <div class="hidden md:flex gap-6">
