@@ -7,7 +7,7 @@
       Feel free to reach out for collaborations or just to say hi!
     </p>
     <button
-      class="px-6 py-3 dark:bg-gray-900 dark:text-white text-gray-900 font-semibold rounded-lg hover:bg-gray-700 transition shadow-lg"
+      class="px-6 py-3 dark:bg-gray-900 dark:text-white bg-gray-900 text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 duration-300 transition shadow-lg"
       href="mailto:nubaidrashid369@gmail.com"
       target="_blank"
     >

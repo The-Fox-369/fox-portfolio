@@ -16,9 +16,8 @@
         <div
           v-for="project in projects"
           :key="project.title"
-          class="bg-[#1b1b1b] rounded-lg p-6 shadow-2xl dark:bg-[#1b1b1b] dark:text-white"
+          class="bg-[#e4e4e4] rounded-lg p-6 shadow-2xl dark:bg-[#1b1b1b] dark:text-white"
         >
-        
           <h3 class="text-xl font-semibold text-white mt-4">
             {{ project.title }}
           </h3>
