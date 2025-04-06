@@ -7,7 +7,7 @@
       @change="toggleDark"
     />
     <div
-      class="relative w-11 h-6 peer-focus:outline-none peer-focus:ring-4 rounded-full bg-[#302f2f] peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-[#1b1b1b] peer-checked:bg-[#e4e4e4] dark:peer-checked:bg-[#1b1b1b] shadow-lg"
+      class="relative w-11 h-6 peer-focus:outline-none peer-focus:ring-4 rounded-full bg-[#302f2f] peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-[#1b1b1b] peer-checked:bg-[#e4e4e4] dark:peer-checked:bg-[#080808] shadow-lg"
     ></div>
   </label>
 </template>
