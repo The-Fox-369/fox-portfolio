@@ -1,5 +1,9 @@
 <template>
-  <button @click="toggleDarkMode" class="p-2 rounded focus:outline-none">
+  <button
+    @click="toggleDark"
+    class="p-2 rounded focus:outline-none transition"
+    aria-label="Toggle Dark Mode"
+  >
     <span v-if="isDark">🌙</span>
     <span v-else>☀️</span>
   </button>
@@ -10,12 +14,24 @@ import { ref, onMounted } from "vue";
 
 const isDark = ref(false);
 
-onMounted(() => {
-  isDark.value = document.documentElement.classList.contains("dark");
-});
-
-function toggleDarkMode() {
+const toggleDark = () => {
   isDark.value = !isDark.value;
-  document.documentElement.classList.toggle("dark", isDark.value);
-}
+  if (isDark.value) {
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+  }
+};
+
+onMounted(() => {
+  const saved = localStorage.getItem("theme");
+  isDark.value = saved === "dark";
+  if (isDark.value) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+});
 </script>
