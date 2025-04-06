@@ -1,22 +1,22 @@
 <template>
   <section id="about" class="py-20">
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
-      <div class="text-center mb-10">
+      <div class="mb-10 text-center">
         <h2 class="text-4xl font-bold">About Me</h2>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p class="mx-auto max-w-2xl text-lg text-gray-600">
           I'm a full-stack developer passionate about building beautiful and
           efficient web applications and designs.
         </p>
       </div>
-      <div class="flex flex-col md:flex-row items-center gap-10">
+      <div class="flex flex-col items-center gap-10 md:flex-row">
         <!-- Profile Image -->
         <img
           src="../../public/assets/fox.svg"
           alt="Your Profile"
-          class="w-48 h-48 rounded-full object-cover shadow-lg"
+          class="h-48 w-48 rounded-full object-cover shadow-lg"
         />
         <!-- Bio -->
-        <div class="text-center md:text-left max-w-lg">
+        <div class="max-w-lg text-center md:text-left">
           <p class="text-lg text-gray-700">
             I specialize in front-end and back-end development, creating
             seamless user experiences. With expertise in modern frameworks and
@@ -29,7 +29,7 @@
           <div class="mt-6">
             <button
               href="#contact"
-              class="px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 duration-300 transition shadow-lg"
+              class="rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white shadow-lg transition duration-300 hover:bg-white hover:text-gray-900"
             >
               Contact Me
             </button>

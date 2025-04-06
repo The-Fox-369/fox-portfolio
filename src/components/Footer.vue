@@ -1,14 +1,14 @@
 <template>
-  <footer class="bg-gray-900 text-white py-6 text-center">
+  <footer class="bg-gray-900 py-6 text-center text-white">
     <p class="text-gray-400">
       &copy; {{ new Date().getFullYear() }} Nubaid Rashid(The Fox). All rights
       reserved.
     </p>
-    <div class="flex justify-center space-x-6 mt-4">
+    <div class="mt-4 flex justify-center space-x-6">
       <a
         href="https://github.com/the-fox-369"
         target="_blank"
-        class="hover:text-gray-300 duration-300 transition"
+        class="transition duration-300 hover:text-gray-300"
         >GitHub</a
       >
       <!-- <a
@@ -20,7 +20,7 @@
       <a
         href="mailto:nubaidrashid369@gmail.com"
         target="_blank"
-        class="hover:text-gray-300 duration-300 transition"
+        class="transition duration-300 hover:text-gray-300"
         >Email</a
       >
     </div>
