@@ -12,37 +12,32 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
-        <!-- Project Card -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div
-          v-for="(project, index) in projects"
-          :key="index"
-          class="bg-[#d6d1d1] p-8 dark:bg-[#1b1b1b] rounded-lg shadow-lg"
+          v-for="project in projects"
+          :key="project.title"
+          class="bg-[#1b1b1b] rounded-lg p-6 shadow-2xl dark:bg-[#1b1b1b] dark:text-white"
         >
-          <img
-            :src="project.image"
-            :alt="project.title"
-            class="w-full leading-3 h-48 object-cover rounded-lg"
-          />
-          <h3 class="text-xl font-semibold mt-4">{{ project.title }}</h3>
-          <p class="text-gray-400 text-md leading-2">
-            {{ project.description }}
-          </p>
-          <div class="mt-4 flex space-x-4">
-            <a
+        
+          <h3 class="text-xl font-semibold text-white mt-4">
+            {{ project.title }}
+          </h3>
+          <p class="text-gray-400 mt-2">{{ project.description }}</p>
+          <div class="mt-4 flex gap-4">
+            <button
               :href="project.live"
               target="_blank"
-              class="px-4 py-2 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-300 transition"
+              class="bg-[#1b1b1b] text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#1b1b1b] duration-300 transition shadow-lg"
             >
               Live Demo
-            </a>
-            <a
+            </button>
+            <button
               :href="project.repo"
               target="_blank"
-              class="px-4 py-2 border border-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 transition"
+              class="bg-[#1b1b1b] text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#1b1b1b] duration-300 transition shadow-lg"
             >
               GitHub
-            </a>
+            </button>
           </div>
         </div>
       </div>
