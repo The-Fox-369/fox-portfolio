@@ -27,12 +27,12 @@
             solving problems with code and design.
           </p>
           <div class="mt-6">
-            <a
+            <button
               href="#contact"
-              class="px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 duration-300 transition"
+              class="px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 duration-300 transition shadow-lg"
             >
               Contact Me
-            </a>
+            </button>
           </div>
         </div>
       </div>
