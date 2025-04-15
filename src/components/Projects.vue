@@ -23,19 +23,23 @@
           </h3>
           <p class="mt-2 text-gray-400">{{ project.description }}</p>
           <div class="mt-4 flex gap-4">
-            <button
-              :href="project.live"
-              target="_blank"
-              class="rounded-md bg-[#1b1b1b] px-4 py-2 text-white shadow-lg transition duration-300 hover:bg-white hover:text-[#1b1b1b]"
-            >
-              Live Demo
+            <button>
+              <a
+                :href="project.live"
+                target="_blank"
+                class="rounded-md bg-[#1b1b1b] px-4 py-2 text-white shadow-lg transition duration-300 hover:bg-white hover:text-[#1b1b1b]"
+              >
+                Live Demo
+              </a>
             </button>
-            <button
-              :href="project.repo"
-              target="_blank"
-              class="rounded-md bg-[#1b1b1b] px-4 py-2 text-white shadow-lg transition duration-300 hover:bg-white hover:text-[#1b1b1b]"
-            >
-              GitHub
+            <button>
+              <a
+                :href="project.repo"
+                target="_blank"
+                class="rounded-md bg-[#1b1b1b] px-4 py-2 text-white shadow-lg transition duration-300 hover:bg-white hover:text-[#1b1b1b]"
+              >
+                GitHub
+              </a>
             </button>
           </div>
         </div>

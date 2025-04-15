@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-20">
+  <section id="about" class="py-20 dark:bg-[#1b1b1b] dark:text-white">
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
       <div class="mb-10 text-center">
         <h2 class="text-4xl font-bold">About Me</h2>
@@ -27,12 +27,12 @@
             solving problems with code and design.
           </p>
           <div class="mt-6">
-            <button
+            <a
               href="#contact"
               class="rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white shadow-lg transition duration-300 hover:bg-white hover:text-gray-900"
             >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
       </div>

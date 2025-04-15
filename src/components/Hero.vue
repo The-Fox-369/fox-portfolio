@@ -9,18 +9,18 @@
         A passionate full-stack developer creating amazing web experiences.
       </p>
       <div class="flex justify-center space-x-4">
-        <button
+        <a
           href="#projects"
           class="rounded-lg bg-white px-6 py-3 font-semibold text-gray-900 shadow-lg transition duration-300 hover:bg-gray-900 hover:text-white"
         >
           View Projects
-        </button>
-        <button
+        </a>
+        <a
           href="#contact"
           class="rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white shadow-lg transition duration-300 hover:bg-white hover:text-gray-900"
         >
           Contact Me
-        </button>
+        </a>
       </div>
     </div>
   </section>
