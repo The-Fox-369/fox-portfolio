@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-900 py-6 text-center text-white">
     <p class="text-gray-400">
-      &copy; {{ new Date().getFullYear() }} Nubaid Rashid(The Fox). All rights
+      &copy; {{ new Date().getFullYear() }} The Fox. All rights
       reserved.
     </p>
     <div class="mt-4 flex justify-center space-x-6">
