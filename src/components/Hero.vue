@@ -4,7 +4,7 @@
     id="hero"
   >
     <div class="space-y-6 text-center">
-      <h1 class="text-5xl font-semibold">Hi, I'm Nubaid Rashid(The Fox)</h1>
+      <h1 class="text-5xl font-semibold">Hi, I'm The Fox</h1>
       <p class="mx-auto max-w-xl text-lg text-gray-300">
         A passionate full-stack developer creating amazing web experiences.
       </p>
